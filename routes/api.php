@@ -24,6 +24,7 @@ use Illuminate\Support\Facades\Http;
 //     return $request->user();
 // });
 
+//Rutas publicas
 Route::post('auth/register', [AuthController::class, 'create']);
 Route::post('auth/login', [AuthController::class, 'login']);
 
